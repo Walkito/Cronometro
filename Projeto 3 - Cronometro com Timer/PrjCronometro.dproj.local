@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/09/28 16:07:45.903,=F:\Projetos Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 16:09:22.218,F:\Projetos Delphi\Projeto 3 - Cronometro com Timer\Cronometro.pas=F:\Projetos Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/09/28 16:09:22.218,F:\Projetos Delphi\Projeto 3 - Cronometro com Timer\Cronometro.dfm=F:\Projetos Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/09/28 16:09:26.433,F:\Projetos Delphi\Projeto 3 - Cronometro com Timer\PrjCronometro.dproj=F:\Projetos Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

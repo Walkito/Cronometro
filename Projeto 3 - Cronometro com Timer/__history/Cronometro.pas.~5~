@@ -1,0 +1,49 @@
+unit Cronometro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.MPlayer, Vcl.StdCtrls,
+  Vcl.ExtCtrls;
+
+type
+  TfCronometro = class(TForm)
+    t_tempo: TTimer;
+    lb_minutos: TLabel;
+    lb_doisPontos: TLabel;
+    lb_segundos: TLabel;
+    MediaPlayer1: TMediaPlayer;
+    btn_play: TSpeedButton;
+    procedure lb_segundosClick(Sender: TObject);
+    procedure t_tempoTimer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fCronometro: TfCronometro;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfCronometro.lb_segundosClick(Sender: TObject);
+
+
+end;
+
+procedure TfCronometro.t_tempoTimer(Sender: TObject);
+var
+seg, min, cont: Integer;
+begin
+   seg := strToInt(lb_segundos.Caption);
+   min := strToInt(lb_minutos.Caption);
+   cont := seg+1;
+
+   lb_segundos.Caption := IntToStr(cont);
+end;
+
+end.
